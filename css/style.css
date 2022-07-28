@@ -1,0 +1,34 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(#388691 50%, #1d1d1b 50%);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#locationDetect {
+  padding: 20px 100px;
+  border: none;
+  outline: none;
+  font-size: 24px;
+  font-weight: 600;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  box-shadow: 0px 0px 10px black, inset 0px 0px 5px black;
+  font-family: cursive;
+}
+
+#locationDetect:disabled {
+  background: rgb(87, 21, 21);
+  color: white;
+}
